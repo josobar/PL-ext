@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "PL+",
+    "version": "1.0",
+    "description": "This extenion is for the online grading platform, \"PrarieLearn.\" This extension extra features to be applied to students' grade portfolios including automatically calculated averages.",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.prairielearn.org/*/assessments",
+                "http://www.prairielearn.org/*/assessments",
+                
+                "https://www.prairielearn.org/*/gradebook",
+                "http://www.prairielearn.org/*/gradebook"
+                
+            ],
+            "js": ["content.js"]
+        }
+    ],
+    "action": {
+        "default_icon": "pl+.png"
+    }
+}
