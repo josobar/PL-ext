@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "PL+",
-    "version": "1.0",
+    "version": "1.1",
     "description": "This extenion is for the online grading platform, \"PrarieLearn.\" This extension extra features to be applied to students' grade portfolios including automatically calculated averages.",
     "content_scripts": [
         {
